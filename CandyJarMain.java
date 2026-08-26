@@ -10,9 +10,7 @@ public class CandyJarMain {
     a1.printState();
     a2.printState();
 
-  
-    a1.printState();
-    a2.printState();
+
 
     }
 
