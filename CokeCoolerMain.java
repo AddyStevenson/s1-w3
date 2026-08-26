@@ -6,8 +6,8 @@ public class CokeCoolerMain {
         a1.take(10);
         a2.add(10);
 
-        a1.printState();
-        a2.printState();
+        System.out.println(a1.cokeCount());
+        System.out.println(a2.cokeCount());
 
 
 
