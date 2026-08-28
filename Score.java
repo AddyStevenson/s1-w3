@@ -10,11 +10,11 @@ public class Score {
         points = p;
     }
 
-    private void gain(int pts){
+    public void increase(int pts){
         points += pts;
     }
 
-    private void lose(int pts){
+    public void decrease(int pts){
         points -= pts;
     }
 
