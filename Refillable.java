@@ -32,7 +32,7 @@ public class Refillable {
     }
 
     public double averageUse(){
-
+        return totalUsed * 1.0 / totalTimesUsedHappens;
     }
 
     public int getPoints() {
