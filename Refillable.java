@@ -14,19 +14,21 @@ public class Refillable {
     public Refillable(int a) {
         amount = a;
         totalUsed += a;
-        totalTimesUsedHappens +=1;
+        totalTimesUsedHappens += 1;
 
     }
 
     public void useUp(int amt) {
         amount -= amt;
-        totalUsed += amt;
-        totalTimesUsedHappens +=1;
+        totalUsed -= amt;
+        totalTimesUsedHappens += 1;
 
     }
 
     public void addTo(int amt) {
         amount += amt;
+        totalUsed += amt;
+        totalTimesUsedHappens += 1;
     }
 
     public double averageUse(){
